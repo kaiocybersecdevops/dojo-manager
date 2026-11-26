@@ -1,0 +1,15 @@
+{
+  "name": "dojo-manager-api",
+  "version": "0.1.0",
+  "description": "REST API for Dojo Manager: student check-in, belt tracking, role-based access and audit trail.",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --no-warnings src/index.js",
+    "test": "node --no-warnings --test test/*.test.js"
+  },
+  "license": "MIT"
+}
