@@ -155,4 +155,6 @@ function App() {
   </div>`;
 }
 
-render(html`<${App} />`, document.getElementById('root'));
+const root = document.getElementById('root');
+root.innerHTML = '';
+render(html`<${App} />`, root);
